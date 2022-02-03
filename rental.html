@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ----------------SEO-Optimization---------------- -->
+    <meta name=“description” content="Logo Genius, a Dallas graphic designer in Dallas, Texas.  Offer logo, SEO, social media management, Dallas web design, and web development." />
+    <meta name="keywords" content="Logo Genius, Logo, Genius, Graphic Design, Web Design">
+    <meta name="author" content="Logo Genius">
+    <!-- Google Site Verification -->
+    <meta name="google-site-verification" content="DogpcsIsv8MfOJNDSMVMBvUm1QvIUQ4CYFODmIn3haI"/>
+    <!-- ----------------SEO-Optimization---------------- -->
+
+    <title>Tent | Bed & Breakfast</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- Google Material Icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/b1974bca5b.js" crossorigin="anonymous"></script>
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/typography.css">
+    <link rel="stylesheet" href="css/utilities.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/modal.css">
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <!-- <header class="header" id="header">
+        <div class="container">
+            <div class="header-box">
+                <h1 class="primary-heading-white">Looking for a place to stay? Go tent.</h1>
+                <div class="header-button">
+                    <a href="#" class="btn-white">Explore Properties</a>
+                </div>
+            </div>
+        </div>
+    </header> -->
+    <!-- Bar -->
+    <div class="bar">
+        <div class="bar__content u-centered">
+            <img class="bar__logo" src="img/Tent_Horizontal_Logo_Partial_Wordmark_Forest_Green.png" alt="logo image">
+            <input type="checkbox" id="inpNavToggle">
+            <label class="bar__nav-toggle" for="inpNavToggle">
+                <i class="material-icons">menu</i>
+            </label>
+            <nav class="nav">
+                <a class="nav__link" href="index.html">Home</a>
+                <a class="nav__link" href="properties.html">Properties</a>
+                <a class="btn-forest-green" href="#">Become a Guest</a>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Header Javascript -->
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const observer = new IntersectionObserver(entries => {
+                document.querySelector(".bar").classList.toggle("bar--bg", entries[0].intersectionRatio < 1)
+            }, {
+                threshold: 1
+            });
+            
+            observer.observe(document.querySelector(".header"));
+        });
+        </script>
+
+<!-- Rental Template Section -->
+<section class="rental">
+    <div class="container">
+        <div class="rental-heading">
+            <a href="properties.html">&#8592; Back to properties</a>
+            <h2>Luxurious and comforting mansion</h2>
+        </div>
+        <div class="rental-label">
+            <div class="rental-host">
+                <img src="img/Tent_Brandmark_Olive_Green.png" alt="">
+                <h5>Hosted by Tent</h5>
+            </div>
+            <div class="rental-address">
+                <img src="img/Tent_Brandmark_Olive_Green.png" alt="">
+                <a href="#">12th St Bellevue, WA 98345</a>
+            </div>
+        </div>
+        <div class="rental-images">
+            <div class="rental-display">
+                <img src="img/house4.jpg" alt="">
+            </div>
+            <div class="rental-portraits">
+                <img src="img/house4.jpg" alt="">
+                <img src="img/house4.jpg" alt="">
+                <img src="img/house4.jpg" alt="">
+                <img src="img/house4.jpg" alt="">
+            </div>
+        </div>
+        <div class="rental-overview">
+            <div class="rental-details">
+                <div class="rental-title">
+                    <h3>4 guests - 1 bedroom - 1 bed - 1 bath</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid veritatis libero distinctio reiciendis laboriosam veniam aperiam repellendus a! Fugit deserunt vero, architecto quasi temporibus explicabo illo nobis at incidunt in.</p>
+                </div>
+                <div class="rental-feature-box">
+
+                    <div class="rental-feature-item">
+                        <div class="rental-icon">
+                            <img src="img/Tent_Brandmark_Olive_Green.png" alt="">
+                        </div>
+                        <div class="rental-feature">
+                            <h4>Feature</h4>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                    </div>
+    
+                    <div class="rental-feature-item">
+                        <div class="rental-icon">
+                            <img src="img/Tent_Brandmark_Olive_Green.png" alt="">
+                        </div>
+                        <div class="rental-feature">
+                            <h4>Feature</h4>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                    </div>
+    
+                    <div class="rental-feature-item">
+                        <div class="rental-icon">
+                            <img src="img/Tent_Brandmark_Olive_Green.png" alt="">
+                        </div>
+                        <div class="rental-feature">
+                            <h4>Feature</h4>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                    </div>
+    
+                    <div class="rental-feature-item">
+                        <div class="rental-icon">
+                            <img src="img/Tent_Brandmark_Olive_Green.png" alt="">
+                        </div>
+                        <div class="rental-feature">
+                            <h4>Feature</h4>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                    </div>
+    
+                    <div class="rental-feature-item">
+                        <div class="rental-icon">
+                            <img src="img/Tent_Brandmark_Olive_Green.png" alt="">
+                        </div>
+                        <div class="rental-feature">
+                            <h4>Feature</h4>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                    </div>
+
+                    <div class="rental-feature-item">
+                        <div class="rental-icon">
+                            <img src="img/Tent_Brandmark_Olive_Green.png" alt="">
+                        </div>
+                        <div class="rental-feature">
+                            <h4>Feature</h4>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                    </div>
+
+                    <div class="rental-feature-item">
+                        <div class="rental-icon">
+                            <img src="img/Tent_Brandmark_Olive_Green.png" alt="">
+                        </div>
+                        <div class="rental-feature">
+                            <h4>Feature</h4>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                    </div>
+    
+                    <div class="rental-feature-item">
+                        <div class="rental-icon">
+                            <img src="img/Tent_Brandmark_Olive_Green.png" alt="">
+                        </div>
+                        <div class="rental-feature">
+                            <h4>Feature</h4>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                    </div>
+    
+                    <div class="rental-feature-item">
+                        <div class="rental-icon">
+                            <img src="img/Tent_Brandmark_Olive_Green.png" alt="">
+                        </div>
+                        <div class="rental-feature">
+                            <h4>Feature</h4>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                    </div>
+    
+                    <div class="rental-feature-item">
+                        <div class="rental-icon">
+                            <img src="img/Tent_Brandmark_Olive_Green.png" alt="">
+                        </div>
+                        <div class="rental-feature">
+                            <h4>Feature</h4>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                    </div>
+    
+                    <div class="rental-feature-item">
+                        <div class="rental-icon">
+                            <img src="img/Tent_Brandmark_Olive_Green.png" alt="">
+                        </div>
+                        <div class="rental-feature">
+                            <h4>Feature</h4>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                    </div>
+
+                    <div class="rental-feature-item">
+                        <div class="rental-icon">
+                            <img src="img/Tent_Brandmark_Olive_Green.png" alt="">
+                        </div>
+                        <div class="rental-feature">
+                            <h4>Feature</h4>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="rental-booking">
+                <!-- FOR SHAIKH AND HIS TEAM
+                Need a one-time payment option where guests can select the amount of days they are going to stay at the rental property, and pay/checkout for those dates. (ie. Rental Property #1 is $50/night, guest can select or choose how many days of stay they need and multiply that by $50 for final cost.)  -->
+                <div class="rental-booking-card">
+                    <div class="booking-title">
+                        <h3>Bellevue Way</h3>
+                        <h4>Bellevue Property</h4>
+                    </div>
+                    <div class="booking-dates">
+                        <a href="#">Amount of days selected</a>
+                    </div>
+                    <div class="booking-pricing">
+
+                    </div>
+                    <div class="booking-button">
+                        <a href="#" class="btn-forest-green">Book Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer Section -->
+<section class="footer" id="footer">
+    <div class="container">
+        <div class="footer-box">
+            <div class="footer-box-company">
+                <img src="img/Tent_Horizontal_Logo_Partial_Wordmark_Forest_Green.png" alt="image">
+                <p class="primary-text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus dicta provident harum optio assumenda, fugiat ullam odit deleniti fuga dolorum architecto iusto totam fugit quas.</p>
+                <p class="primary-text-white">Copyright © 2022 Tent - All rights reserved.</p>
+            </div>
+            <div class="footer-box-links">
+                <h3 class="tertiary-heading-white margin-bottom-1">Site Map</h3>
+                <ul>
+                    <a href="index.html"><li>Home</li></a>
+                    <a href="properties.html"><li>Properties</li></a>
+                </ul>
+            </div>
+            <div class="footer-box-socials">
+                <h3 class="tertiary-heading-white mmargin-bottom-`">Social Media</h3>
+                <a href="#" target="_blank"><li><i class="fab fa-instagram"></i></li></a>
+                <a href="#" target="_blank"><li><i class="fab fa-facebook-f"></i></li></a>
+                <a href="#" target="_blank"><li><i class="fab fa-instagram"></i></li></a>
+            </div>
+            <div class="footer-box-development">
+                <h3 class="tertiary-heading-white margin-bottom-1">Contact Info</h3>
+                <a href="tel:#"><li>(111) 222 - 3333</li></a>
+                <a href="mailto:#"><li>example@example.com</li></a>
+                <a href="https://logo-genius.com/"><li>Developed By Logo Genius</li></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+</body>
+</html>

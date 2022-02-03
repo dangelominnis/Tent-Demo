@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ----------------SEO-Optimization---------------- -->
+    <meta name=“description” content="Logo Genius, a Dallas graphic designer in Dallas, Texas.  Offer logo, SEO, social media management, Dallas web design, and web development." />
+    <meta name="keywords" content="Logo Genius, Logo, Genius, Graphic Design, Web Design">
+    <meta name="author" content="Logo Genius">
+    <!-- Google Site Verification -->
+    <meta name="google-site-verification" content="DogpcsIsv8MfOJNDSMVMBvUm1QvIUQ4CYFODmIn3haI"/>
+    <!-- ----------------SEO-Optimization---------------- -->
+
+    <title>Tent | Bed & Breakfast</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- Google Material Icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/b1974bca5b.js" crossorigin="anonymous"></script>
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/typography.css">
+    <link rel="stylesheet" href="css/utilities.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/modal.css">
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header-box">
+                <h1 class="primary-heading-white">Looking for a place to stay? Go tent.</h1>
+                <div class="header-button">
+                    <a href="#places" class="btn-white">Explore Properties</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Bar -->
+    <div class="bar">
+        <div class="bar__content u-centered">
+            <img class="bar__logo" src="img/Tent_Horizontal_Logo_Partial_Wordmark_Forest_Green.png" alt="logo image">
+            <input type="checkbox" id="inpNavToggle">
+            <label class="bar__nav-toggle" for="inpNavToggle">
+                <i class="material-icons">menu</i>
+            </label>
+            <nav class="nav">
+                <a class="nav__link" href="index.html">Home</a>
+                <a class="nav__link" href="properties.html">Properties</a>
+                <a class="btn-forest-green" href="#">Become a Guest</a>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Header Javascript -->
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const observer = new IntersectionObserver(entries => {
+                document.querySelector(".bar").classList.toggle("bar--bg", entries[0].intersectionRatio < 1)
+            }, {
+                threshold: 1
+            });
+            
+            observer.observe(document.querySelector(".header"));
+        });
+        </script>
+
+<!-- Places Section -->
+<section class="places" id="places">
+    <div class="container">
+        <h2>Find the right place for you</h2>
+        <div class="places-box">
+
+            <div class="places-card">
+                <div class="places-card-img">
+                    <img src="img/house4.jpg" alt="">
+                </div>
+                <div class="places-card-text">
+                    <h3>Bellevue</h3>
+                    <h4>3 properties</h4>
+                </div>
+                <div class="places-button">
+                    <a href="properties.html" class="btn-forest-green">See Places</a>
+                </div>
+            </div>
+
+            <div class="places-card">
+                <div class="places-card-img">
+                    <img src="img/house5.jpg" alt="">
+                </div>
+                <div class="places-card-text">
+                    <h3>Kent</h3>
+                    <h4>3 properties</h4>
+                </div>
+                <div class="places-button">
+                    <a href="properties.html" class="btn-forest-green">See Places</a>
+                </div>
+            </div>
+
+            <div class="places-card">
+                <div class="places-card-img">
+                    <img src="img/house6.jpg" alt="">
+                </div>
+                <div class="places-card-text">
+                    <h3>Newcastle</h3>
+                    <h4>3 properties</h4>
+                </div>
+                <div class="places-button">
+                    <a href="properties.html" class="btn-forest-green">See Places</a>
+                </div>
+            </div>
+
+            <div class="places-card">
+                <div class="places-card-img">
+                    <img src="img/house1.jpg" alt="">
+                </div>
+                <div class="places-card-text">
+                    <h3>Seattle</h3>
+                    <h4>3 properties</h4>
+                </div>
+                <div class="places-button">
+                    <a href="properties.html" class="btn-forest-green">See Places</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- Experiences Section -->
+<section class="experiences" id="experiences">
+    <div class="container">
+        <h2>The experience you're looking for</h2>
+        <div class="experiences-box">
+
+            <div class="experiences-card">
+                <img src="img/house6.jpg" alt="">
+                <h2>Things to do <br> on your trip</h2>
+                <div class="experiences-button">
+                    <a href="properties.html" class="btn-white">Experiences</a>
+                </div>
+            </div>
+
+            <div class="experiences-card">
+                <img src="img/house5.jpg" alt="">
+                <h2>Things to do <br> on your trip</h2>
+                <div class="experiences-button">
+                    <a href="properties.html" class="btn-white">Experiences</a>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+<!-- Tent Section -->
+<section class="tent" id="tent">
+    <div class="container">
+        <div class="tent-box">
+            <div class="tent-image">
+                <img src="img/house4.jpg" alt="">
+            </div>
+            <div class="tent-text">
+                <h2>Welcome to tent, where everyone is welcome.</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit dicta, possimus autem neque eos commodi provident, veritatis quaerat esse omnis quidem non nostrum mollitia similique expedita. In molestias ut officia.</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit dicta, possimus autem neque eos commodi provident, veritatis quaerat esse omnis quidem non nostrum mollitia similique expedita. In molestias ut officia.</p>
+                <div class="tent-button">
+                    <a href="properties.html" class="btn-forest-green">Explore Properties</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Banner Section -->
+<!-- <section class="banner" id="banner">
+    <div class="container">
+        <div class="banner-box">
+            <div class="banner-text">
+                <h1 class="primary-heading-white margin-bottom-4">It's Time For Your Auto Detailing</h1>
+                <p class="primary-text-white margin-bottom-4">Ready to fall in love with your car again? Then it's tie to contact us at Auto Detail in Los Angeles! Let's get your auto detailing started right away.</p>
+                <form name="banner" method="POST" data-netlify="true"><input type="hidden" name="form-name" value="banner">
+                    <div class="banner-item">
+                        <input type="email" name="Email Address" id="" class="input" placeholder="Email Address" required>
+                        <input type="submit" value="Submit" class="btn-submit">
+                    </div>
+                </form>
+            </div>
+            <div class="banner-image">
+                <img src="img/Yuppies - Designing.png" alt="banner image">
+            </div>
+        </div>
+    </div>
+</section> -->
+
+<!-- Footer Section -->
+<section class="footer" id="footer">
+    <div class="container">
+        <div class="footer-box">
+            <div class="footer-box-company">
+                <img src="img/Tent_Horizontal_Logo_Partial_Wordmark_Forest_Green.png" alt="image">
+                <p class="primary-text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus dicta provident harum optio assumenda, fugiat ullam odit deleniti fuga dolorum architecto iusto totam fugit quas.</p>
+                <p class="primary-text-white">Copyright © 2022 Tent - All rights reserved.</p>
+            </div>
+            <div class="footer-box-links">
+                <h3 class="tertiary-heading-white margin-bottom-1">Site Map</h3>
+                <ul>
+                    <a href="index.html"><li>Home</li></a>
+                    <a href="properties.html"><li>Properties</li></a>
+                </ul>
+            </div>
+            <div class="footer-box-socials">
+                <h3 class="tertiary-heading-white mmargin-bottom-`">Social Media</h3>
+                <a href="#" target="_blank"><li><i class="fab fa-instagram"></i></li></a>
+                <a href="#" target="_blank"><li><i class="fab fa-facebook-f"></i></li></a>
+                <a href="#" target="_blank"><li><i class="fab fa-instagram"></i></li></a>
+            </div>
+            <div class="footer-box-development">
+                <h3 class="tertiary-heading-white margin-bottom-1">Contact Info</h3>
+                <a href="tel:#"><li>(111) 222 - 3333</li></a>
+                <a href="mailto:#"><li>example@example.com</li></a>
+                <a href="https://logo-genius.com/"><li>Developed By Logo Genius</li></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+</body>
+</html>

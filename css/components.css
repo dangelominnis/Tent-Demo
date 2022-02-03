@@ -1,0 +1,73 @@
+/* Buttons */
+.btn-white {
+    background: var(--color-white);
+    color: var(--color-forest-green);
+    /* box-shadow: 0 .75rem .75rem rgba(0, 0, 0, 0.15); */
+    font-weight: 500;
+    font-size: 1.4rem;
+    border-radius: 24px;
+    padding: 1.5rem 2.25rem;
+    cursor: pointer;
+    transition: .3s ease;
+    text-decoration: none;
+}
+
+.btn-white:hover {
+    background: var(--color-olive-green);
+    color: var(--color-white);
+}
+
+.btn-forest-green {
+    background: var(--color-forest-green);
+    color: var(--color-white);
+    /* box-shadow: 0 .75rem .75rem rgba(0, 0, 0, 0.15); */
+    font-weight: 500;
+    font-size: 1.4rem;
+    border-radius: 24px;
+    padding: 1.5rem 2.25rem;
+    cursor: pointer;
+    transition: .3s ease;
+    text-decoration: none;
+}
+
+.btn-forest-green:hover {
+    background: var(--color-olive-green);
+    color: var(--color-white);
+}
+
+.btn-olive-green {
+    background: var(--color-olive-green);
+    color: var(--color-white);
+    /* box-shadow: 0 .75rem .75rem rgba(0, 0, 0, 0.15); */
+    font-weight: 500;
+    font-size: 1.4rem;
+    border-radius: 24px;
+    padding: 1.5rem 2.25rem;
+    cursor: pointer;
+    transition: .3s ease;
+    text-decoration: none;
+}
+
+.btn-olive-green:hover {
+    background: var(--color-forest-green);
+    color: var(--color-white);
+}
+
+.btn-transparent {
+    background: transparent;
+    color: var(--color-forest-green);
+    border: 1px solid var(--color-forest-green);
+    /* box-shadow: 0 .75rem .75rem rgba(0, 0, 0, 0.15); */
+    font-weight: 500;
+    font-size: 1.4rem;
+    border-radius: 24px;
+    padding: 1.5rem 2.25rem;
+    cursor: pointer;
+    transition: .3s ease;
+    text-decoration: none;
+}
+
+.btn-transparent:hover {
+    background-color: var(--color-forest-green);
+    color: var(--color-white);
+}
